@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import TaskForm from "./TaskForm";
-import { BrowserRouter } from 'react-router-dom';
 
 function Task({ task, categoryId, setTasks, tasks }) {
     const [isEditing, setIsEditing] = useState(false)

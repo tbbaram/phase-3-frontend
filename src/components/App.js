@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react';
 import CategoryContainer from './CategoryContainer';
 import CategoryForm from "./CategoryForm";
 
-
 function App() {
   const [categories, setCategories] = useState([])
 
   const tasks = categories.map((task) => {
     return task.tasks
   })
-  console.log(categories)
+  console.log(tasks)
 
   // handle add new task within app. 
   // create restful
